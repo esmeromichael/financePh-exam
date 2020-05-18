@@ -158,7 +158,6 @@ $(document).ready(function(me){
                     } else {
                         swal("Opps!", data.message, "warning");
                     }
-                    
                 }
             },
             complete: function() {
