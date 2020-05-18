@@ -26,9 +26,9 @@ Route::group(
 	Route::post('/create', 'UserController@create');
 	Route::get('/delete', 'UserController@destroy');
 	Route::get('/validate-email', 'UserController@validateEmail');
-
+	
 	Route::post('/login', 'UserController@login');
-
+	
 	Route::post('/upload-img', 'UserController@upload');
 	Route::get('/locked-account', 'UserController@lockedAccount');
 });
